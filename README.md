@@ -7,3 +7,7 @@ Some Notes:
 
 Some Uses:
 - Remotely post content to a group using python & store data content found in <code>response.text</code> (when using <code>request</code> library), so the data can be passed on and utilised for analysis etc
+
+Bot Related Information:
+- Bots need to be created using the Telegram @BotFather chat & commands
+- <code>chat_id</code> can be confirmed by inviting @getidsbot to the group
