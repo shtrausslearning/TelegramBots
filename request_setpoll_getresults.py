@@ -1,7 +1,9 @@
 # Create a Poll in group [chat_id] using [bot_id] & extract and plot results
+# Using Plotly Express
 
 import requests
 import json
+import plotly.express as px
 
 base_url = "https://api.telegram.org/bot[bot_id]/sendPoll"
 
@@ -32,7 +34,6 @@ resp = requests.get(base_url,
 lst_updIDs = resp.json()['result'] 
 
 # show poll results
-import plotly.express as px
 
 # Select the desired poll update
 options = lst_updIDs[-4]['poll']['options']
