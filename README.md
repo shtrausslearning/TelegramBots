@@ -3,4 +3,4 @@ Two approaches to utilise Telegram Bots:
 - <code>python-telegram-bot</code> library
 
 Some Notes:
-- Request library allows the utilisation of bots straight from python without chat commands
+- <code>Request</code> library allows the utilisation of bots straight from python without chat commands
