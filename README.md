@@ -11,3 +11,4 @@ Some Uses:
 Bot Related Information:
 - Bots need to be created using the Telegram @BotFather chat & commands
 - <code>chat_id</code> can be confirmed by inviting @getidsbot to the group
+- <code>bot_id</code> is the authentication code of each bot, created by a Telegram user; ie. all created bots are tied to a username
