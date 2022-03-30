@@ -1,4 +1,4 @@
-# Using request library & url link to send a quiz
+# Using request library & url link to send a quiz/poll
 # to [chat_id] using created bot[X] identifier
 
 import requests
